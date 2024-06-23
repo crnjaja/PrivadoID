@@ -13,6 +13,7 @@
         <li><a href="#identity-models">Identity models</a></li>
         <li><a href="#know-your-customer">Know your customer</a></li>
         <li><a href="#airdrop">Airdrop</a></li>
+        <li><a href="#dapps">dApps</a></li>
       </ul>
     </li> 
     <li>
@@ -103,6 +104,12 @@ In a federated system, users benefit from improved convenience and reduced redun
 The decentralized identity model, inspired by blockchain technology, represents a paradigm shift from centralized control to user-centric identity management. In this model, individuals have full control over their identity data and manage it independently. This approach uses Decentralized Identifiers (DIDs) and Verifiable Credentials (VCs) to establish and verify identities without relying on a central authority.
 
 Decentralized identity systems allow for peer-to-peer relationships, where identities are managed directly between individuals and organizations. This model enhances privacy and security, as users can selectively disclose only the necessary information for a transaction or interaction. However, the decentralized model introduces technical complexity and requires new infrastructure and widespread adoption to become fully effective. Users must also manage their cryptographic keys securely to prevent identity loss.
+
+### Know Your Customer / Know Your Business
+
+### Airdrop
+
+### dApps
 
 <!-- CONTRIBUTING -->
 ## Contributing
