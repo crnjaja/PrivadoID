@@ -58,7 +58,20 @@ This is an example of how to list things you need to use the software and how to
 
 ### Smart contracts
 
-This is an example of how to list things you need to use the software and how to install them.
+Smart contracts are simple programs that run on blockchain platforms, such as Ethereum. They are designed to execute specific actions automatically when predefined conditions are met. These contracts run in virtual machines, like the Ethereum Virtual Machine (EVM) or Ethereum Flavored WebAssembly (eWASM), ensuring that they are secure and tamper-proof.
+
+Key Features of Smart Contracts
+1. Autonomous Execution: Once deployed, smart contracts operate autonomously. They do not require human intervention to execute their instructions.
+2. Cost and Efficiency: Running smart contracts involves transaction fees, paid in the blockchain's native cryptocurrency (e.g., Ether on Ethereum). The fees, calculated in units called gas, ensure that the network remains sustainable and efficient.
+3. Interoperability: Smart contracts can interact with each other, enabling complex chains of actions and logic. This interoperability supports various applications, from simple wallets to sophisticated identity systems.
+4. Ownership and Control: Smart contracts can be owned by individuals, groups, or be entirely autonomous. The ownership model influences how the contract can be interacted with and controlled.
+5. Transparency and Security: The operations of smart contracts are transparent and verifiable by anyone on the network. This transparency enhances security and trust among participants.
+
+Smart contracts play a pivotal role in decentralized identity systems. For example, ERC 725 v2 and ERC 1056 are specific types of smart contracts designed to support identity management on the Ethereum blockchain:
+
+- ERC 725 v2: Proxy Account: This contract type supports identity-enabling key-value stores and separate key-management methodologies, creating verifiable, manageable proxy accounts.
+- ERC 1056: Lightweight Identity: This contract facilitates efficient off-chain identity data management, using the blockchain to increase the trustworthiness of that information.
+These standards ensure that self-sovereign identities on the blockchain are interoperable, manageable, and verifiable.
 
 
 <!-- CONTRIBUTING -->
