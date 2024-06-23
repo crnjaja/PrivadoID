@@ -51,16 +51,17 @@ This section should list any major frameworks/libraries used to bootstrap your p
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
+<!-- TOKENIZATION -->
 ### Token
 
 This is an example of how to list things you need to use the software and how to install them.
 
-
-### Smart contracts
+<!-- SMART CONTRACTS -->
+### Smart Contracts
 
 Smart contracts are simple programs that run on blockchain platforms, such as Ethereum. They are designed to execute specific actions automatically when predefined conditions are met. These contracts run in virtual machines, like the Ethereum Virtual Machine (EVM) or Ethereum Flavored WebAssembly (eWASM), ensuring that they are secure and tamper-proof.
 
-Key Features of Smart Contracts
+Key Features of Smart Contracts :
 - Autonomous Execution: Once deployed, smart contracts operate autonomously. They do not require human intervention to execute their instructions.
 - Cost and Efficiency: Running smart contracts involves transaction fees, paid in the blockchain's native cryptocurrency (e.g., Ether on Ethereum). The fees, calculated in units called gas, ensure that the network remains sustainable and efficient.
 - Interoperability: Smart contracts can interact with each other, enabling complex chains of actions and logic. This interoperability supports various applications, from simple wallets to sophisticated identity systems.
@@ -69,10 +70,40 @@ Key Features of Smart Contracts
 
 Smart contracts play a pivotal role in decentralized identity systems. For example, ERC 725 v2 and ERC 1056 are specific types of smart contracts designed to support identity management on the Ethereum blockchain:
 
-- ERC 725 v2: Proxy Account: This contract type supports identity-enabling key-value stores and separate key-management methodologies, creating verifiable, manageable proxy accounts.
-- ERC 1056: Lightweight Identity: This contract facilitates efficient off-chain identity data management, using the blockchain to increase the trustworthiness of that information.
-These standards ensure that self-sovereign identities on the blockchain are interoperable, manageable, and verifiable.
+<!-- ZKP -->
+### Zero Knowledge Proof
 
+Zero-Knowledge Proofs are a type of cryptographic protocol that allows one party (the prover) to convince another party (the verifier) that they know a value or possess certain information without disclosing any details about the value itself.
+
+ZKP needs to have the following three properties :
+- Completeness, if the statement is really true and both users follow the rules properly, then the verifier would be convinced without any artificial help.
+- Soundness, in case of the statement being false, the verifier would not be convincedin any scenario.
+- Zero-Knowledge, the verifier in every case would not know any more information.
+
+Cryptographic Mechanisms
+- Interactive Proof Systems: Early ZKPs were interactive, requiring multiple rounds of communication between the prover and verifier.
+- Non-Interactive Zero-Knowledge Proofs (NIZK): These allow the proof to be generated and verified without interaction, often using a common reference string available to both parties.
+
+Practical Implementations
+- zk-SNARKs - Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge: Used in blockchain technologies like Zcash for private transactions. They are efficient and allow for succinct proofs.
+- zk-STARKs - Zero-Knowledge Scalable Transparent Arguments of Knowledge: Designed for scalability and transparency, eliminating the need for a trusted setup phase.
+
+### Identity Models
+
+ #### Centralized Identity Model
+The centralized identity model is a traditional approach where a single, central authority manages and controls identity information. This model is prevalent in systems where government agencies, social media platforms, or service providers issue and maintain identification data. In this setup, individuals create accounts with the central entity, linking their identity to these accounts. The central authority owns and controls the identity data, making decisions about its use and access. This model is characterized by a single point of control, where the central entity oversees the creation, update, and deletion of identity records.
+
+One of the significant issues with this model is privacy. Users have limited control over their personal data, and the central authority can use or share this data without the user's explicit consent. Additionally, centralized databases are attractive targets for cyberattacks, leading to potential data breaches and identity theft. Despite these risks, the centralized model remains widely used due to its simplicity and historical precedence.
+
+#### Federated Identity Model
+The federated identity model aims to address some of the limitations of the centralized model by allowing multiple organizations to share and verify identity information through a trusted third party known as an Identity Provider (IDP). This model enables Single Sign-On (SSO) capabilities, where users can access multiple services using one set of login credentials managed by the IDP.
+
+In a federated system, users benefit from improved convenience and reduced redundancy, as they don't need to create separate accounts for each service. However, this model still presents privacy concerns since the IDP can potentially track user activities across different services. Furthermore, the dependency on the IDP means that if it is compromised, all relying parties are affected. Interoperability issues can also arise when different IDPs use varying standards and protocols.
+
+#### Decentralized Identity Model
+The decentralized identity model, inspired by blockchain technology, represents a paradigm shift from centralized control to user-centric identity management. In this model, individuals have full control over their identity data and manage it independently. This approach uses Decentralized Identifiers (DIDs) and Verifiable Credentials (VCs) to establish and verify identities without relying on a central authority.
+
+Decentralized identity systems allow for peer-to-peer relationships, where identities are managed directly between individuals and organizations. This model enhances privacy and security, as users can selectively disclose only the necessary information for a transaction or interaction. However, the decentralized model introduces technical complexity and requires new infrastructure and widespread adoption to become fully effective. Users must also manage their cryptographic keys securely to prevent identity loss.
 
 <!-- CONTRIBUTING -->
 ## Contributing
