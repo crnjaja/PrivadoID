@@ -48,13 +48,12 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- BLOCKCHAIN -->
 ## Blockchain
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+check if needed
 
 <!-- TOKENIZATION -->
 ### Token
 
-This is an example of how to list things you need to use the software and how to install them.
+check if needed
 
 <!-- SMART CONTRACTS -->
 ### Smart Contracts
