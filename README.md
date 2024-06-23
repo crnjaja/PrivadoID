@@ -1,4 +1,4 @@
-
+<a name="readme-top"></a>
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -51,10 +51,14 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 check if needed
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- TOKENIZATION -->
 ## Token
 
 check if needed
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SMART CONTRACTS -->
 ## Smart Contracts
@@ -68,7 +72,9 @@ Key Features of Smart Contracts :
 - Ownership and Control: Smart contracts can be owned by individuals, groups, or be entirely autonomous. The ownership model influences how the contract can be interacted with and controlled.
 - Transparency and Security: The operations of smart contracts are transparent and verifiable by anyone on the network. This transparency enhances security and trust among participants.
 
-Smart contracts play a pivotal role in decentralized identity systems. For example, ERC 725 v2 and ERC 1056 are specific types of smart contracts designed to support identity management on the Ethereum blockchain:
+Smart contracts play a pivotal role in decentralized identity systems. For example, ERC 725 v2 and ERC 1056 are specific types of smart contracts designed to support identity management on the Ethereum blockchain.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ZKP -->
 ## Zero Knowledge Proof
@@ -88,6 +94,8 @@ Practical Implementations
 - zk-SNARKs - Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge: Used in blockchain technologies like Zcash for private transactions. They are efficient and allow for succinct proofs.
 - zk-STARKs - Zero-Knowledge Scalable Transparent Arguments of Knowledge: Designed for scalability and transparency, eliminating the need for a trusted setup phase.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- IDENTITY MODELS -->
 ## Identity Models
 
@@ -106,14 +114,22 @@ The decentralized identity model, inspired by blockchain technology, represents 
 
 Decentralized identity systems allow for peer-to-peer relationships, where identities are managed directly between individuals and organizations. This model enhances privacy and security, as users can selectively disclose only the necessary information for a transaction or interaction. However, the decentralized model introduces technical complexity and requires new infrastructure and widespread adoption to become fully effective. Users must also manage their cryptographic keys securely to prevent identity loss.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- KYC KYB -->
 ## Know Your Customer / Know Your Business
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Airdrop -->
 ## Airdrop
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- DAPPS -->
 ## dApps
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 ## Contributing
