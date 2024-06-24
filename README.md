@@ -119,15 +119,29 @@ Decentralized identity systems allow for peer-to-peer relationships, where ident
 <!-- KYC KYB -->
 ## Know Your Customer / Know Your Business
 
+Know Your Customer - KYC and KYB Know Your Business - KYB are regulatory and due diligence processes used to verify the identity of clients and prevent illegal activities such as money laundering and fraud.
+
+KYC involves a series of checks that financial institutions must conduct to verify the identity of their clients. This includes gathering information such as name, address, date of birth, and proof of identity (e.g., passport, driver's license). The aim is to ensure that clients are who they claim to be and to assess the risk they may pose. KYC procedures typically involve a Customer Indentification Program - CIP, collecting and verifying customer identification information, Customer Due Diligence - CDD, assessing the customer's risk profile based on their background and transactional behavior and continuous monitoring.
+
+In the context of SSI and digital identity, KYC can be enhanced by using VCs allowing secure and real-time verification while maintaining privacy.
+
+KYB is a similar process but focuses on verifying the legitimacy and details of businesses rather than individuals. Both KYC and KYB are essential components of anti-money-laundering- AML and counter financing - CTF frameworks, helping to mitigate risks and comply with regulatory requirements.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Airdrop -->
 ## Airdrop
 
+Airdrops are a distribution mechanisme in the cryptocurrency and blockchain ecosystem where tokens or coins are sent to user's wallets, typically for free. The purpose is often to promote new projects, increase the circulation of a token or reward loyal users.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- DAPPS -->
 ## dApps
+
+Decentralized applications, commonly known as dApps, are software applications that run on a blockchain or decentralized network rather than being hosted on centralized servers. They utilize smart contracts to facilitate various functions, providing transparency, security, and trust without a central authority.
+
+In the context of SSI, dApps can be used to create, manage, and verify decentralized identities. For example, a dApp could allow users to store their verifiable credentials in a digital wallet, manage access to their personal data, and prove their identity to service providers without relying on a centralized identity authority.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
