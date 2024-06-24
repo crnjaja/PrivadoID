@@ -149,7 +149,21 @@ Edit the intro here
 <!-- VCs -->
 ## Virtual Credentials
 
+Virtual Credentials - VCs refer to digital versions of traditional physical credentials. They are a cornerstone of SSI systems as they allow :
 
+- Identity verification : VSs can be used for verifying identity in various contexts such as online banking, airport security, and digital onboarding processes. For example, a person could use a Virtual Credential issued by their government to verify their identity when opening a bank account online.
+- Access control : VCs can control access to physical and digital spaces. For instance, employees could use Virtual Credentials to access office buildings or secure online resources, ensuring that only authorized personnel can enter or gain access.
+- Compliance and certifications : educational institutions and professional organizations can issue VCs to certify qualifications, professional memberships, or compliance with industry standards. This allows individuals to prove their credentials easily and securely to potential employers or clients.
+
+<!-- DIGITAL WALLET -->
+## Digital Wallet
+
+These credentials can be kept in digital wallets capable of storing and managing such credentials but also providing security/encryption and backup/recovery options
+
+<!-- DIGITAL AGENT -->
+## Digital Agent
+
+Digital wallets are often paired with digital agent, which act similarly to an operation system, mediating all interactions between the wallet, the user and other agents. Digital agents perform tasks such as generating cryptographic key pairs, initiating DID-to-DID connections, securing communication and managing credential issuance and verification.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
