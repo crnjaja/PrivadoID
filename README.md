@@ -20,15 +20,13 @@
       <a href="#ssi-technology">SSI Technology</a>
       <ul>
         <li><a href="#decentralized-identifiers">Decentralized Identifiers</a></li>
-        <li><a href="#virtual-credentials">Virtual credentials</a></li>
         <li><a href="#digital-wallet">Digital wallet</a></li>
-        <li><a href="#digital-agent">Digital agent</a></li>
+        <li><a href="#virtual-credentials">Virtual credentials</a></li>
         <li><a href="#governance-framework">Governance framework</a></li>
         <li><a href="#decentralized-key-management">Decentralized key management</a></li>
-        <li><a href="#cryptography-techniques">Cryptography techniques</a></li>
       </ul>
     </li> 
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contributors">Contributors</a></li>
   </ol>
 </details>
 
@@ -56,16 +54,26 @@ check if needed
 <!-- SMART CONTRACTS -->
 ## Smart Contracts
 
-Smart contracts are simple programs that run on blockchain platforms, such as Ethereum. They are designed to execute specific actions automatically when predefined conditions are met. These contracts run in virtual machines, like the Ethereum Virtual Machine (EVM) or Ethereum Flavored WebAssembly (eWASM), ensuring that they are secure and tamper-proof.
+Smart contracts are simple programs that run on blockchain platforms, such as Ethereum. They are designed to execute specific actions automatically when predefined conditions are met.The lifecycle of a smart contract into the following steps :
+
+1. Creation : a developer writes the contract using a blockchain-specific programming language, such as Solidity for Ethereum. The contract includes rules and conditions agreed upon by the parties involved.
+
+3. Deployment : the contract is deployed on the blockchain. At this point, it is translated into a format that can be understood and executed by the blockchain network. The contract now exists across multiple nodes, making it decentralized and resistant to tampering.
+
+4. Execution : when the predefined conditions of the contract are met (these could be anything from a date, completion of a task, payment confirmation, etc.), the contract automatically executes the agreed-upon terms. For example, releasing funds to the appropriate party.
+
+5. Verification : the blockchain network records and verifies the transaction, ensuring all conditions were met and the contract was executed according to its code.
+
+6. Finalization : the output of the contract is recorded on the blockchain, providing an immutable, transparent, and secure record of the agreement and its execution.
 
 Key Features of Smart Contracts :
-- Autonomous Execution: Once deployed, smart contracts operate autonomously. They do not require human intervention to execute their instructions.
-- Cost and Efficiency: Running smart contracts involves transaction fees, paid in the blockchain's native cryptocurrency (e.g., Ether on Ethereum). The fees, calculated in units called gas, ensure that the network remains sustainable and efficient.
-- Interoperability: Smart contracts can interact with each other, enabling complex chains of actions and logic. This interoperability supports various applications, from simple wallets to sophisticated identity systems.
-- Ownership and Control: Smart contracts can be owned by individuals, groups, or be entirely autonomous. The ownership model influences how the contract can be interacted with and controlled.
-- Transparency and Security: The operations of smart contracts are transparent and verifiable by anyone on the network. This transparency enhances security and trust among participants.
+- Autonomous Execution : once deployed, smart contracts operate autonomously. They do not require human intervention to execute their instructions.
+- Cost and Efficiency : running smart contracts involves transaction fees, paid in the blockchain's native cryptocurrency (e.g., Ether on Ethereum). The fees, calculated in units called gas, ensure that the network remains sustainable and efficient.
+- Interoperability : smart contracts can interact with each other, enabling complex chains of actions and logic. This interoperability supports various applications, from simple wallets to sophisticated identity systems.
+- Ownership and Control : smart contracts can be owned by individuals, groups, or be entirely autonomous. The ownership model influences how the contract can be interacted with and controlled.
+- Transparency and Security : the operations of smart contracts are transparent and verifiable by anyone on the network. This transparency enhances security and trust among participants.
 
-Smart contracts play a pivotal role in decentralized identity systems. For example, ERC 725 v2 and ERC 1056 are specific types of smart contracts designed to support identity management on the Ethereum blockchain.
+The importance of smart contracts in SSI can be illustrated through their role in managing identity on blockchain platforms like Ethereum and with specific implementations like ERC 725 (focusing on making an Ethereum account into a public on-chain identity, which can have any amount of information attached) and ERC 1056 (in contrast keeps all of its identity information off-chain, the on-chain smart contract serves largely as a public key registry for that identity).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,11 +87,11 @@ ZKP needs to have the following three properties :
 - Soundness, in case of the statement being false, the verifier would not be convincedin any scenario.
 - Zero-Knowledge, the verifier in every case would not know any more information.
 
-Cryptographic Mechanisms
+Cryptographic Mechanisms :
 - Interactive Proof Systems: Early ZKPs were interactive, requiring multiple rounds of communication between the prover and verifier.
 - Non-Interactive Zero-Knowledge Proofs (NIZK): These allow the proof to be generated and verified without interaction, often using a common reference string available to both parties.
 
-Practical Implementations
+Practical Implementations :
 - zk-SNARKs - Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge: Used in blockchain technologies like Zcash for private transactions. They are efficient and allow for succinct proofs.
 - zk-STARKs - Zero-Knowledge Scalable Transparent Arguments of Knowledge: Designed for scalability and transparency, eliminating the need for a trusted setup phase.
 
@@ -125,7 +133,7 @@ KYB is a similar process but focuses on verifying the legitimacy and details of 
 <!-- Airdrop -->
 ## Airdrop
 
-Airdrops are a distribution mechanisme in the cryptocurrency and blockchain ecosystem where tokens or coins are sent to user's wallets, typically for free. The purpose is often to promote new projects, increase the circulation of a token or reward loyal users.
+Airdrops are a distribution mechanism in the cryptocurrency and blockchain ecosystem where tokens or coins are sent to user's wallets, typically for free. The purpose is often to promote new projects, increase the circulation of a token or reward loyal users.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -178,6 +186,15 @@ did:ethr:0x123456789abcdef123456789abcdef123456789abcdef
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- DIGITAL WALLET -->
+## Digital Wallet
+
+These credentials can be kept in digital wallets capable of storing and managing such credentials but also providing security/encryption and backup/recovery options.
+
+Digital wallets are often paired with digital agent, which act similarly to an operation system, mediating all interactions between the wallet, the user and other agents. Digital agents perform tasks such as generating cryptographic key pairs, initiating DID-to-DID connections, securing communication and managing credential issuance and verification.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- VCs -->
 ## Virtual Credentials
 
@@ -189,19 +206,6 @@ Virtual Credentials - VCs refer to digital versions of traditional physical cred
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- DIGITAL WALLET -->
-## Digital Wallet
-
-These credentials can be kept in digital wallets capable of storing and managing such credentials but also providing security/encryption and backup/recovery options.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- DIGITAL AGENT -->
-## Digital Agent
-
-Digital wallets are often paired with digital agent, which act similarly to an operation system, mediating all interactions between the wallet, the user and other agents. Digital agents perform tasks such as generating cryptographic key pairs, initiating DID-to-DID connections, securing communication and managing credential issuance and verification.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GOVERNANCE FRAMWORK -->
 ## Governance framework
@@ -215,12 +219,20 @@ Digital wallets are often paired with digital agent, which act similarly to an o
 
 
 
-<!-- CONTACT -->
-## Contact
+<!-- CONTRIBUTORS -->
+## Contributors
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+<table>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/crnjaja>
+            <img src=https://avatars.githubusercontent.com/crnjaja width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=crnjaja/>
+            <br />
+            <sub style="font-size:14px"><b>crnjaja</b></sub>
+        </a>
+    </td>
+</table>
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
