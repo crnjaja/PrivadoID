@@ -11,7 +11,7 @@
         <li><a href="#smart-contracts">Smart contracts</a></li>
         <li><a href="#zero-knowledge-proof">Zero knowledge proof</a></li>
         <li><a href="#identity-models">Identity models</a></li>
-        <li><a href="#know-your-customer">Know your customer</a></li>
+        <li><a href="#know-your-customer">Know Your Customer</a></li>
         <li><a href="#airdrop">Airdrop</a></li>
         <li><a href="#dapps">dApps</a></li>
       </ul>
@@ -109,8 +109,8 @@ Decentralized identity systems allow for peer-to-peer relationships, where ident
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- KYC KYB -->
-## Know Your Customer / Know Your Business
+<!-- KNOW YOUR CUSTOMER -->
+## Know Your Customer
 
 Know Your Customer - KYC and KYB Know Your Business - KYB are regulatory and due diligence processes used to verify the identity of clients and prevent illegal activities such as money laundering and fraud.
 
@@ -155,6 +155,8 @@ Layer 3 : deals with the issuance, management and verification of VCs
 
 Layer 4 : provides the policies, rules and standard that ensure the interoperability, trustworthiness and compliance of the SSI ecosystem
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- DECENTRALIZED IDENTIFIERS -->
 ## Decentralized Identifiers
 
@@ -192,16 +194,24 @@ Virtual Credentials - VCs refer to digital versions of traditional physical cred
 
 These credentials can be kept in digital wallets capable of storing and managing such credentials but also providing security/encryption and backup/recovery options.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- DIGITAL AGENT -->
 ## Digital Agent
 
 Digital wallets are often paired with digital agent, which act similarly to an operation system, mediating all interactions between the wallet, the user and other agents. Digital agents perform tasks such as generating cryptographic key pairs, initiating DID-to-DID connections, securing communication and managing credential issuance and verification.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GOVERNANCE FRAMWORK -->
 ## Governance framework
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- DECENTRALIZED KEY MANAGEMENT -->
 ## Decentralized key management
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CRYPTOGRAPHY TECHNIQUES -->
 ## Cryptography techniques
@@ -213,7 +223,7 @@ Digital wallets are often paired with digital agent, which act similarly to an o
 ### Proofs
 #### Zero-Knowledge Proofs
 
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 ## Contact
