@@ -26,6 +26,11 @@
         <li><a href="#decentralized-key-management">Decentralized key management</a></li>
       </ul>
     </li> 
+        <li>
+      <a href="#privado-id">Privado ID</a>
+      <ul>
+      </ul>
+    </li> 
     <li><a href="#contributors">Contributors</a></li>
   </ol>
 </details>
