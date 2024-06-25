@@ -19,14 +19,12 @@
     <li>
       <a href="#ssi-technology">SSI Technology</a>
       <ul>
+        <li><a href="#decentralized-identifiers">Decentralized Identifiers</a></li>
         <li><a href="#virtual-credentials">Virtual credentials</a></li>
         <li><a href="#digital-wallet">Digital wallet</a></li>
         <li><a href="#digital-agent">Digital agent</a></li>
-        <li><a href="#digital-wallet">Digital wallet</a></li>
-        <li><a href="#decentralized-identifiers">Decentralized Identifiers</a></li>
-        <li><a href="#decentralized-key-management">Decentralized key management</a></li>
         <li><a href="#governance-framework">Governance framework</a></li>
-        <li><a href="#ssi-architecture">SSI architecture</a></li>
+        <li><a href="#decentralized-key-management">Decentralized key management</a></li>
         <li><a href="#cryptography-techniques">Cryptography techniques</a></li>
       </ul>
     </li> 
@@ -143,8 +141,40 @@ In the context of SSI, dApps can be used to create, manage, and verify decentral
 <!-- SSI TECH -->
 ### SSI Technology
 
-Edit the intro here
+The Self-Sovereign Identity is often conceptualized as a four distinct layers architecture :
 
+<div align="center">
+    <img src="images/architecture.png" alt="architecture">
+</div>
+
+Layer 1 : the identifiers and public keys layer involves the creation and management of DIDs and public keys.
+
+Layer 2 : provides the protocols and interfaces necessary for secure, private and efficient communication between entities
+
+Layer 3 : deals with the issuance, management and verification of VCs
+
+Layer 4 : provides the policies, rules and standard that ensure the interoperability, trustworthiness and compliance of the SSI ecosystem
+
+<!-- DECENTRALIZED IDENTIFIERS -->
+## Decentralized Identifiers
+
+A Decentralized Identifier - DID is a new type of globally unique identifier that can be used to identify any entity, whether it be a person, organization, device, or other digital resource. Unlike traditional identifiers, DIDs are designed to be self-sovereign, fully under the control of the entity they identify.
+
+DIDs are designed to be a permanent identifier that does not need to change even if the underlying system or service provider changes, aren't managed by any central authority and are cryptographically verifiable : the DID is associated with a public/private key pair, and control over the DID can be proven by demonstrating control over the corresponding private key.
+
+A DID consists of three parts :
+
+<div align="center">
+    <img src="images/did.png" alt="DID">
+</div>
+
+The Scheme indicated that the identifier is a DID, the method defines how the DID and its associdated DID document are created, resolved, updates and deactivated and finally, and a unique string that identifies the specific entity within the context of the DID method. Here is an example with an Ethereum address :
+
+```
+did:ethr:0x123456789abcdef123456789abcdef123456789abcdef
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- VCs -->
 ## Virtual Credentials
@@ -155,17 +185,34 @@ Virtual Credentials - VCs refer to digital versions of traditional physical cred
 - Access control : VCs can control access to physical and digital spaces. For instance, employees could use Virtual Credentials to access office buildings or secure online resources, ensuring that only authorized personnel can enter or gain access.
 - Compliance and certifications : educational institutions and professional organizations can issue VCs to certify qualifications, professional memberships, or compliance with industry standards. This allows individuals to prove their credentials easily and securely to potential employers or clients.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- DIGITAL WALLET -->
 ## Digital Wallet
 
-These credentials can be kept in digital wallets capable of storing and managing such credentials but also providing security/encryption and backup/recovery options
+These credentials can be kept in digital wallets capable of storing and managing such credentials but also providing security/encryption and backup/recovery options.
 
 <!-- DIGITAL AGENT -->
 ## Digital Agent
 
 Digital wallets are often paired with digital agent, which act similarly to an operation system, mediating all interactions between the wallet, the user and other agents. Digital agents perform tasks such as generating cryptographic key pairs, initiating DID-to-DID connections, securing communication and managing credential issuance and verification.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- GOVERNANCE FRAMWORK -->
+## Governance framework
+
+<!-- DECENTRALIZED KEY MANAGEMENT -->
+## Decentralized key management
+
+<!-- CRYPTOGRAPHY TECHNIQUES -->
+## Cryptography techniques
+
+### Hash functions
+### Encryption
+### Digital Signatures
+### Verifiable Data Structures
+### Proofs
+#### Zero-Knowledge Proofs
+
 
 
 <!-- CONTACT -->
