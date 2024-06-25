@@ -37,27 +37,27 @@
 
 
 
-### General
+## General
 
 Edit the intro here
 
 
 <!-- BLOCKCHAIN -->
-## Blockchain
+### Blockchain
 
 check if needed
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- TOKENIZATION -->
-## Token
+### Token
 
 check if needed
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SMART CONTRACTS -->
-## Smart Contracts
+### Smart Contracts
 
 Smart contracts are simple programs that run on blockchain platforms, such as Ethereum. They are designed to execute specific actions automatically when predefined conditions are met.The lifecycle of a smart contract into the following steps :
 
@@ -83,7 +83,7 @@ The importance of smart contracts in SSI can be illustrated through their role i
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ZKP -->
-## Zero Knowledge Proof
+### Zero Knowledge Proof
 
 Zero-Knowledge Proofs are a type of cryptographic protocol that allows one party (the prover) to convince another party (the verifier) that they know a value or possess certain information without disclosing any details about the value itself.
 
@@ -103,7 +103,7 @@ Practical Implementations :
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- IDENTITY MODELS -->
-## Identity Models
+### Identity Models
 
  ### Centralized Identity Model
 The centralized identity model is a traditional approach where a single, central authority manages and controls identity information. This model is prevalent in systems where government agencies, social media platforms, or service providers issue and maintain identification data. In this setup, individuals create accounts with the central entity, linking their identity to these accounts. The central authority owns and controls the identity data, making decisions about its use and access. This model is characterized by a single point of control, where the central entity oversees the creation, update, and deletion of identity records.
@@ -123,7 +123,7 @@ Decentralized identity systems allow for peer-to-peer relationships, where ident
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- KNOW YOUR CUSTOMER -->
-## Know Your Customer
+### Know Your Customer
 
 Know Your Customer - KYC and KYB Know Your Business - KYB are regulatory and due diligence processes used to verify the identity of clients and prevent illegal activities such as money laundering and fraud.
 
@@ -136,14 +136,14 @@ KYB is a similar process but focuses on verifying the legitimacy and details of 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Airdrop -->
-## Airdrop
+### Airdrop
 
 Airdrops are a distribution mechanism in the cryptocurrency and blockchain ecosystem where tokens or coins are sent to user's wallets, typically for free. The purpose is often to promote new projects, increase the circulation of a token or reward loyal users.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- DAPPS -->
-## dApps
+### dApps
 
 Decentralized applications, commonly known as dApps, are software applications that run on a blockchain or decentralized network rather than being hosted on centralized servers. They utilize smart contracts to facilitate various functions, providing transparency, security, and trust without a central authority.
 
@@ -152,7 +152,7 @@ In the context of SSI, dApps can be used to create, manage, and verify decentral
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SSI TECH -->
-### SSI Technology
+## SSI Technology
 
 The Self-Sovereign Identity is often conceptualized as a four distinct layers architecture :
 
@@ -171,7 +171,7 @@ Layer 4 : provides the policies, rules and standard that ensure the interoperabi
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- DECENTRALIZED IDENTIFIERS -->
-## Decentralized Identifiers
+### Decentralized Identifiers
 
 A Decentralized Identifier - DID is a new type of globally unique identifier that can be used to identify any entity, whether it be a person, organization, device, or other digital resource. Unlike traditional identifiers, DIDs are designed to be self-sovereign, fully under the control of the entity they identify.
 
@@ -192,7 +192,7 @@ did:ethr:0x123456789abcdef123456789abcdef123456789abcdef
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- DIGITAL WALLET -->
-## Digital Wallet
+### Digital Wallet
 
 These credentials can be kept in digital wallets capable of storing and managing such credentials but also providing security/encryption and backup/recovery options.
 
@@ -201,7 +201,7 @@ Digital wallets are often paired with digital agent, which act similarly to an o
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- VCs -->
-## Virtual Credentials
+### Virtual Credentials
 
 Virtual Credentials - VCs refer to digital versions of traditional physical credentials. They are a cornerstone of SSI systems as they allow :
 
@@ -213,22 +213,22 @@ Virtual Credentials - VCs refer to digital versions of traditional physical cred
 
 
 <!-- GOVERNANCE FRAMWORK -->
-## Governance framework
+### Governance framework
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- DECENTRALIZED KEY MANAGEMENT -->
-## Decentralized key management
+### Decentralized key management
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### Privado ID
+## Privado ID
 
 
 
 <!-- CONTRIBUTORS -->
-### Contributors
+## Contributors
 
 <div align="center">
   <table border="0">
