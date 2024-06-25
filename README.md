@@ -183,7 +183,7 @@ did:ethr:0x123456789abcdef123456789abcdef123456789abcdef
 
 Virtual Credentials - VCs refer to digital versions of traditional physical credentials. They are a cornerstone of SSI systems as they allow :
 
-- Identity verification : VSs can be used for verifying identity in various contexts such as online banking, airport security, and digital onboarding processes. For example, a person could use a Virtual Credential issued by their government to verify their identity when opening a bank account online.
+- Identity verification : VCs can be used for verifying identity in various contexts such as online banking, airport security, and digital onboarding processes. For example, a person could use a Virtual Credential issued by their government to verify their identity when opening a bank account online.
 - Access control : VCs can control access to physical and digital spaces. For instance, employees could use Virtual Credentials to access office buildings or secure online resources, ensuring that only authorized personnel can enter or gain access.
 - Compliance and certifications : educational institutions and professional organizations can issue VCs to certify qualifications, professional memberships, or compliance with industry standards. This allows individuals to prove their credentials easily and securely to potential employers or clients.
 
@@ -213,17 +213,7 @@ Digital wallets are often paired with digital agent, which act similarly to an o
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CRYPTOGRAPHY TECHNIQUES -->
-## Cryptography techniques
 
-### Hash functions
-### Encryption
-### Digital Signatures
-### Verifiable Data Structures
-### Proofs
-#### Zero-Knowledge Proofs
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 ## Contact
