@@ -228,7 +228,7 @@ Virtual Credentials - VCs refer to digital versions of traditional physical cred
 
 
 <!-- CONTRIBUTORS -->
-## Contributors
+### Contributors
 
 <div align="center">
   <table border="0">
