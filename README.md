@@ -218,6 +218,9 @@ Virtual Credentials - VCs refer to digital versions of traditional physical cred
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+### Privado ID
+
+
 
 <!-- CONTRIBUTORS -->
 ## Contributors
