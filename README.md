@@ -222,16 +222,21 @@ Virtual Credentials - VCs refer to digital versions of traditional physical cred
 <!-- CONTRIBUTORS -->
 ## Contributors
 
-<table>
-<tr>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/crnjaja>
-            <img src=https://avatars.githubusercontent.com/crnjaja width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=crnjaja/>
-            <br />
-            <sub style="font-size:14px"><b>crnjaja</b></sub>
-        </a>
-    </td>
-</table>
+<div align="center">
+  <table border="0">
+    <tr>
+      <td align="center" style="word-wrap: break-word; width: 150px; height: 150px; border: none;">
+          <a href=https://github.com/crnjaja>
+              <img src=https://avatars.githubusercontent.com/crnjaja width="100" style="border-radius:50%; align-items:center; justify-content:center; overflow:hidden; padding-top:10px" alt=crnjaja/>
+              <br />
+              <sub style="font-size:14px"><b>crnjaja</b></sub>
+          </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
