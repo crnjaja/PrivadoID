@@ -240,6 +240,13 @@ Virtual Credentials - VCs refer to digital versions of traditional physical cred
               <sub style="font-size:14px"><b>crnjaja</b></sub>
           </a>
       </td>
+            <td align="center" style="word-wrap: break-word; width: 150px; height: 150px; border: none;">
+          <a href=https://github.com/Esvaria>
+              <img src=https://avatars.githubusercontent.com/Esvaria width="100" style="border-radius:50%; align-items:center; justify-content:center; overflow:hidden; padding-top:10px" alt=Esvaria/>
+              <br />
+              <sub style="font-size:14px"><b>Esvaria</b></sub>
+          </a>
+      </td>
     </tr>
   </table>
 </div>
