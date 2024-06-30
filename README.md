@@ -39,20 +39,82 @@
 
 ## General
 
-Edit the intro here
+
+## Glossary
+
+| **Term**                        | **Definition**                                                                                                                                                                                                                                         |
+|---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Self-Sovereign Identity (SSI)**| A digital identity model where individuals fully own, control, and manage their personal data.                                                                                                                                                       |
+| **Polygon ID**                  | A decentralized identity solution built on the Polygon blockchain network.                                                                                                                                                                            |
+| **Blockchain**                  | A decentralized ledger technology that records transactions across many computers so that the record cannot be altered retroactively.                                                                                                                 |
+| **Token**                       | A digital asset created on a blockchain, representing ownership or participation in a project, service, or utility.                                                                                                                                   |
+| **Smart Contracts**             | Simple programs that run on blockchain platforms, such as Ethereum, designed to execute specific actions automatically when predefined conditions are met. The lifecycle includes creation, deployment, execution, verification, and finalization.    |
+| **Creation**                    | Writing the contract using a blockchain-specific programming language, including rules and conditions.                                                                                                                                               |
+| **Deployment**                  | Translating the contract into a blockchain-readable format and distributing it across the network.                                                                                                                                                    |
+| **Execution**                   | Automatically executing the contract when conditions are met.                                                                                                                                                                                        |
+| **Verification**                | Ensuring all conditions were met and the contract executed correctly.                                                                                                                                                                                 |
+| **Finalization**                | Recording the contract's outcome on the blockchain.                                                                                                                                                                                                   |
+| **Key Features**                | Autonomous execution, cost and efficiency, interoperability, ownership and control, transparency, and security.                                                                                                                                       |
+| **Zero-Knowledge Proof (ZKP)**  | A cryptographic protocol allowing one party to prove to another that they know a value without revealing the value itself.                                                                                                                            |
+| **Properties**                  | Completeness, soundness, and zero-knowledge.                                                                                                                                                                                                          |
+| **Cryptographic Mechanisms**    | Interactive proof systems and non-interactive zero-knowledge proofs (NIZK).                                                                                                                                                                           |
+| **Practical Implementations**   | zk-SNARKs and zk-STARKs.                                                                                                                                                                                                                              |
+| **Centralized Identity Model**  | A traditional model where a central authority manages and controls identity information.                                                                                                                                                              |
+| **Federated Identity Model**    | A model where multiple organizations share and verify identity information through a trusted third party known as an Identity Provider (IDP).                                                                                                        |
+| **Decentralized Identity Model**| A user-centric model where individuals control their identity data independently, often using blockchain technology.                                                                                                                                  |
+| **Know Your Customer (KYC)**    | Regulatory processes used to verify the identity of clients and prevent illegal activities like money laundering and fraud.                                                                                                                            |
+| **Know Your Business (KYB)**    | Similar to KYC, but focuses on verifying the legitimacy and details of businesses.                                                                                                                                                                    |
+| **Airdrop**                     | A distribution mechanism where tokens or coins are sent to users' wallets for free, often to promote new projects or reward loyal users.                                                                                                              |
+| **Decentralized Applications (dApps)** | Software applications that run on a blockchain or decentralized network, providing transparency, security, and trust without a central authority.                                                                                          |
+| **Layer 1**                     | The identifiers and public keys layer for creating and managing DIDs and public keys.                                                                                                                                                                 |
+| **Layer 2**                     | Protocols and interfaces for secure, private, and efficient communication between entities.                                                                                                                                                           |
+| **Layer 3**                     | Issuance, management, and verification of verifiable credentials (VCs).                                                                                                                                                                               |
+| **Layer 4**                     | Policies, rules, and standards ensuring the interoperability, trustworthiness, and compliance of the SSI ecosystem.                                                                                                                                   |
+| **Decentralized Identifier (DID)** | A globally unique identifier that can identify any entity without being managed by a central authority, and is cryptographically verifiable.                                                                                                 |
+| **Components**                  | Scheme, method, and unique string.                                                                                                                                                                                                                    |
+| **Digital Wallet**              | A tool for storing and managing digital assets, including credentials, providing security, encryption, and backup/recovery options.                                                                                                                  |
+| **Virtual Credentials (VCs)**   | Digital versions of traditional physical credentials, essential in SSI systems for identity verification, access control, and compliance certifications.                                                                                               |
+| **Governance Framework**        | The policies, rules, and structures that govern the management and operation of decentralized identity systems.                                                                                                                                       |
+| **Decentralized Key Management**| The processes and technologies used to manage cryptographic keys in a decentralized manner, ensuring security and control for users.                                                                                                                  |
 
 
 <!-- BLOCKCHAIN -->
 ### Blockchain
 
-check if needed
+#### What is Blockchain?
+**Blockchain** is a decentralized ledger technology that records transactions across multiple computers to ensure security, transparency, and immutability. Each block contains a list of transactions, and once a block is completed, it is linked to the previous one, forming a chain of blocks.
+
+#### Why Blockchain is Used in SSI
+- **Decentralization**: Blockchain eliminates the need for a central authority to manage and verify identities, aligning with the core principle of SSI.
+- **Immutability**: Once data is recorded on the blockchain, it cannot be altered or deleted, ensuring the integrity of identity information.
+- **Transparency**: Transactions and data on the blockchain are transparent and can be verified by all participants, enhancing trust in the system.
+- **Security**: Blockchain uses cryptographic techniques to secure data, reducing the risk of identity theft and fraud.
+- **Interoperability**: Blockchain provides a standardized way to manage identities, allowing for seamless interaction across different platforms and services.
+
+#### How Blockchain Works in SSI
+1. **Identity Creation**: Individuals create their digital identities by generating a pair of cryptographic keys (public and private keys). The public key acts as a decentralized identifier (DID) on the blockchain.
+2. **Credential Issuance**: Trusted entities (e.g., governments, universities) issue verifiable credentials (VCs) to individuals. These credentials are cryptographically signed and stored on the blockchain.
+3. **Storage and Management**: Users store their DIDs and VCs in a digital wallet, which they control. This wallet interacts with the blockchain to verify and present credentials when needed.
+4. **Verification**: When users need to prove their identity, they present the relevant VCs. Verifiers can use the blockchain to check the validity and authenticity of these credentials without accessing the underlying personal data.
+5. **Privacy Preservation**: Blockchain can use zero-knowledge proofs (ZKPs) to verify information without revealing the actual data. This ensures that users can prove their identity or specific attributes (e.g., age) without disclosing unnecessary personal information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- TOKENIZATION -->
 ### Token
 
-check if needed
+#### Tokens in SSI
+**Tokens** are digital assets that represent various forms of value on the blockchain. In the context of SSI, tokens can be used to:
+- **Incentivize Participation**: Tokens can reward users, credential issuers, and verifiers for participating in the SSI ecosystem.
+- **Access Control**: Tokens can be used to manage access to services and resources, ensuring that only authorized users can access certain data or services.
+- **Transaction Fees**: Tokens can be used to pay for transaction fees on the blockchain, ensuring the sustainability of the network.
+
+#### Example: Polygon ID
+**Polygon ID** is a decentralized identity solution built on the Polygon blockchain. It leverages the following blockchain features:
+- **Scalability**: Utilizes Polygon’s high-speed, low-cost infrastructure for efficient identity verification transactions.
+- **Privacy-Preserving**: Employs zero-knowledge proofs to verify identity without disclosing personal data.
+- **Interoperability**: Works seamlessly with other blockchain platforms and traditional systems.
+- **User Empowerment**: Enables users to control their own identity information and choose what to share and with whom.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -225,6 +287,57 @@ Virtual Credentials - VCs refer to digital versions of traditional physical cred
 
 ## Privado ID
 
+![img.png](images/img.png)
+
+**Definition**: A decentralized identity solution built on the Polygon blockchain network.
+
+### Purpose
+- **Decentralized Verification**: Allows for secure and private identity verification without intermediaries.
+- **Interoperable Identities**: Supports identity use across different decentralized applications (dApps) within the Polygon ecosystem.
+
+### Key Features
+- **Scalability**: Utilizes Polygon’s high-speed, low-cost infrastructure to handle large volumes of identity verification transactions efficiently.
+- **Privacy-Preserving**: Employs zero-knowledge proofs to verify identity without disclosing personal data.
+- **Interoperability**: Designed to work seamlessly with other blockchain platforms and traditional systems.
+- **User Empowerment**: Enables users to control their own identity information and choose what to share and with whom.
+
+### Why It's Needed
+- **Enhanced Privacy**: Reduces the amount of personal information shared, mitigating privacy risks.
+- **Security**: Improves security by using blockchain technology to protect identity data.
+- **Efficiency**: Streamlines identity verification processes, reducing costs and increasing speed.
+- **Decentralization**: Eliminates reliance on central authorities for identity management, aligning with the principles of decentralization in blockchain technology.
+
+### Overview
+- Polygon ID is a self-sovereign, decentralized, and private identity solution for the next iteration of the Internet.
+- It is powered by zero-knowledge (ZK) cryptography, a privacy and blockchain scaling technology.
+- It leverages the Iden3 protocol and Circom ZK toolkit.
+- Polygon ID is private by default, offers on-chain verification, and permissionless attestation.
+
+### Benefits
+- **User Control**: Puts users in control of their identity and personal data.
+- **Social Coordination**: Facilitates social coordination by taking back power from third parties.
+- **Privacy Guarantees**: Provides stronger privacy guarantees, enabling more use cases and increasing user adoption.
+- **Cybersecurity**: Offers a solution to digital identity needs, addressing increasing cyberattacks and data breaches.
+- **Future-Proof**: Presents a sustainable solution to global digital identity challenges.
+
+### Developer Tools
+- **Issuer Node**: A self-hosted API for creating verifiable credentials according to W3C standards, signed cryptographically to ensure tamper-proof credentials.
+- **Wallet SDK**: Used to develop mobile wallets that request, store, and present credentials or proof of credentials using zero-knowledge proofs.
+- **Verifier SDK**: Libraries for composing queries to verify credentials, supporting both off-chain and on-chain verification through smart contracts.
+
+### Use Cases
+- **Identity Wallets**: Like crypto wallets holding private keys, identity wallets hold identity keys and credentials.
+- **Verifiable Credentials**: Issued by entities such as governments, universities, banks, KYC providers, oracles, DAOs, and reputation services.
+- **Verification**: Enables secure, tamper-resistant verification of credentials, ensuring privacy through zero-knowledge proofs.
+
+### Example Process
+1. **Credential Issuance**: Issuers create credentials using the Issuer Node.
+2. **Credential Storage**: Users collect and store credentials in their identity wallet.
+3. **Credential Presentation**: Users present credentials or proofs to dApps or Smart Contracts (Verifiers) using the Wallet SDK.
+4. **Verification**: Verifiers use the Verifier SDK to query and validate credentials, ensuring security and privacy.
+
+### Summary
+Polygon ID is a comprehensive set of tools enabling trusted and secure relationships between apps and users through verifiable credentials secured by cryptography and blockchain technology.
 
 
 <!-- CONTRIBUTORS -->
