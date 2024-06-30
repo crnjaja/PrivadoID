@@ -336,9 +336,6 @@ Virtual Credentials - VCs refer to digital versions of traditional physical cred
 3. **Credential Presentation**: Users present credentials or proofs to dApps or Smart Contracts (Verifiers) using the Wallet SDK.
 4. **Verification**: Verifiers use the Verifier SDK to query and validate credentials, ensuring security and privacy.
 
-### Summary
-Polygon ID is a comprehensive set of tools enabling trusted and secure relationships between apps and users through verifiable credentials secured by cryptography and blockchain technology.
-
 
 <!-- CONTRIBUTORS -->
 ## Contributors
