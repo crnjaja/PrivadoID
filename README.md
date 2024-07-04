@@ -4,8 +4,9 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#general">General</a>
+      <a href="#ssi-technology">SSI Technology</a>
       <ul>
+        <li><a href="#introduction">Introduction</a></li>
         <li><a href="#blockchain">Blockchain</a></li>
         <li><a href="#token">Token</a></li>
         <li><a href="#smart-contracts">Smart contracts</a></li>
@@ -14,19 +15,12 @@
         <li><a href="#know-your-customer">Know Your Customer</a></li>
         <li><a href="#airdrop">Airdrop</a></li>
         <li><a href="#dapps">dApps</a></li>
-      </ul>
-    </li> 
-    <li>
-      <a href="#ssi-technology">SSI Technology</a>
-      <ul>
         <li><a href="#decentralized-identifiers">Decentralized Identifiers</a></li>
         <li><a href="#digital-wallet">Digital wallet</a></li>
         <li><a href="#virtual-credentials">Virtual credentials</a></li>
-        <li><a href="#governance-framework">Governance framework</a></li>
-        <li><a href="#decentralized-key-management">Decentralized key management</a></li>
       </ul>
     </li> 
-        <li>
+    <li>
       <a href="#privado-id">Privado ID</a>
       <ul>
       </ul>
@@ -77,6 +71,23 @@
 | **Governance Framework**        | The policies, rules, and structures that govern the management and operation of decentralized identity systems.                                                                                                                                       |
 | **Decentralized Key Management**| The processes and technologies used to manage cryptographic keys in a decentralized manner, ensuring security and control for users.                                                                                                                  |
 
+<!-- SSI TECH -->
+## SSI Technology
+
+In this chapter, we will cover and define Self-Sovereign Identity - SSI and all the key terms and concepts necessary to understand this subject comprehensively.
+
+<!-- INTRODUCTION -->
+### Introduction
+
+Self-Sovereign Identity (SSI) is a groundbreaking approach to digital identity management that empowers individuals to control and manage their personal information without relying on centralized authorities. Unlike traditional identity systems, where personal data is stored and controlled by governments, corporations, or other third parties, SSI allows individuals to store their identity data in a digital wallet and share it securely and selectively with others.
+
+Key Principles :
+
+- User Control and Ownership : in SSI, individuals own and control their personal data. They decide what information to share, with whom, and for how long. This control reduces the risk of data breaches and misuse.
+  
+- Decentralization : SSI eliminates the need for a central authority to manage identities. Instead, it uses decentralized technologies, such as blockchain, to create a distributed and tamper-proof system for verifying credentials.
+
+- Privacy and Security : SSI enhances privacy by allowing users to share only the necessary information, minimizing data exposure. Security is achieved through advanced cryptographic techniques that protect data from unauthorized access.
 
 <!-- BLOCKCHAIN -->
 ### Blockchain
@@ -149,7 +160,7 @@ The importance of smart contracts in SSI can be illustrated through their role i
 
 Zero-Knowledge Proofs are a type of cryptographic protocol that allows one party (the prover) to convince another party (the verifier) that they know a value or possess certain information without disclosing any details about the value itself.
 
-ZKP needs to have the following three properties :
+ZKPs needs to have the following three properties :
 - Completeness, if the statement is really true and both users follow the rules properly, then the verifier would be convinced without any artificial help.
 - Soundness, in case of the statement being false, the verifier would not be convincedin any scenario.
 - Zero-Knowledge, the verifier in every case would not know any more information.
@@ -161,6 +172,8 @@ Cryptographic Mechanisms :
 Practical Implementations :
 - zk-SNARKs - Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge: Used in blockchain technologies like Zcash for private transactions. They are efficient and allow for succinct proofs.
 - zk-STARKs - Zero-Knowledge Scalable Transparent Arguments of Knowledge: Designed for scalability and transparency, eliminating the need for a trusted setup phase.
+
+ZKPs are fundamental to SSI as they enable selective disclosure, allowing users to share only necessary information, enhance security by providing strong cryptographic guarantees and facilitate trust in decentralized systems by providing verifiable, tamper-proof proofs.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -213,25 +226,6 @@ In the context of SSI, dApps can be used to create, manage, and verify decentral
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SSI TECH -->
-## SSI Technology
-
-The Self-Sovereign Identity is often conceptualized as a four distinct layers architecture :
-
-<div align="center">
-    <img src="images/architecture.png" alt="architecture">
-</div>
-
-Layer 1 : the identifiers and public keys layer involves the creation and management of DIDs and public keys.
-
-Layer 2 : provides the protocols and interfaces necessary for secure, private and efficient communication between entities
-
-Layer 3 : deals with the issuance, management and verification of VCs
-
-Layer 4 : provides the policies, rules and standard that ensure the interoperability, trustworthiness and compliance of the SSI ecosystem
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- DECENTRALIZED IDENTIFIERS -->
 ### Decentralized Identifiers
 
@@ -270,17 +264,6 @@ Virtual Credentials - VCs refer to digital versions of traditional physical cred
 - Identity verification : VCs can be used for verifying identity in various contexts such as online banking, airport security, and digital onboarding processes. For example, a person could use a Virtual Credential issued by their government to verify their identity when opening a bank account online.
 - Access control : VCs can control access to physical and digital spaces. For instance, employees could use Virtual Credentials to access office buildings or secure online resources, ensuring that only authorized personnel can enter or gain access.
 - Compliance and certifications : educational institutions and professional organizations can issue VCs to certify qualifications, professional memberships, or compliance with industry standards. This allows individuals to prove their credentials easily and securely to potential employers or clients.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- GOVERNANCE FRAMWORK -->
-### Governance framework
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- DECENTRALIZED KEY MANAGEMENT -->
-### Decentralized key management
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
