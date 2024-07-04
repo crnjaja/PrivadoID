@@ -30,10 +30,6 @@
 </details>
 
 
-
-## General
-
-
 ## Glossary
 
 | **Term**                        | **Definition**                                                                                                                                                                                                                                         |
