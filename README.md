@@ -267,6 +267,13 @@ These credentials can be kept in digital wallets capable of storing and managing
 
 Digital wallets are often paired with digital agent, which act similarly to an operation system, mediating all interactions between the wallet, the user and other agents. Digital agents perform tasks such as generating cryptographic key pairs, initiating DID-to-DID connections, securing communication and managing credential issuance and verification.
 
+Here's an example of a wallet with several VCs :
+
+<div align="center">
+    <img src="images/wallet.jpeg" alt="DID" width="30%">
+</div>
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
