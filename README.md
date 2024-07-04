@@ -16,8 +16,8 @@
         <li><a href="#airdrop">Airdrop</a></li>
         <li><a href="#dapps">dApps</a></li>
         <li><a href="#decentralized-identifiers">Decentralized Identifiers</a></li>
-        <li><a href="#digital-wallet">Digital wallet</a></li>
         <li><a href="#virtual-credentials">Virtual credentials</a></li>
+        <li><a href="#digital-wallet">Digital wallet</a></li>
       </ul>
     </li> 
     <li>
@@ -85,6 +85,8 @@ Key Principles :
 
 - Privacy and Security : SSI enhances privacy by allowing users to share only the necessary information, minimizing data exposure. Security is achieved through advanced cryptographic techniques that protect data from unauthorized access.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- BLOCKCHAIN -->
 ### Blockchain
 
@@ -128,7 +130,7 @@ Key Principles :
 <!-- SMART CONTRACTS -->
 ### Smart Contracts
 
-Smart contracts are simple programs that run on blockchain platforms, such as Ethereum. They are designed to execute specific actions automatically when predefined conditions are met.The lifecycle of a smart contract into the following steps :
+Smart contracts are programs running on a blockchain, such as Ethereum. They are designed to execute specific actions automatically when predefined conditions are met. The lifecycle of a smart contract is as follow :
 
 1. Creation : a developer writes the contract using a blockchain-specific programming language, such as Solidity for Ethereum. The contract includes rules and conditions agreed upon by the parties involved.
 
@@ -142,12 +144,12 @@ Smart contracts are simple programs that run on blockchain platforms, such as Et
 
 Key Features of Smart Contracts :
 - Autonomous Execution : once deployed, smart contracts operate autonomously. They do not require human intervention to execute their instructions.
-- Cost and Efficiency : running smart contracts involves transaction fees, paid in the blockchain's native cryptocurrency (e.g., Ether on Ethereum). The fees, calculated in units called gas, ensure that the network remains sustainable and efficient.
+- Cost and Efficiency : running smart contracts involves transaction fees, paid in the blockchain's native cryptocurrency. The fees, calculated in units called gas, ensure that the network remains sustainable and efficient.
 - Interoperability : smart contracts can interact with each other, enabling complex chains of actions and logic. This interoperability supports various applications, from simple wallets to sophisticated identity systems.
 - Ownership and Control : smart contracts can be owned by individuals, groups, or be entirely autonomous. The ownership model influences how the contract can be interacted with and controlled.
 - Transparency and Security : the operations of smart contracts are transparent and verifiable by anyone on the network. This transparency enhances security and trust among participants.
 
-The importance of smart contracts in SSI can be illustrated through their role in managing identity on blockchain platforms like Ethereum and with specific implementations like ERC 725 (focusing on making an Ethereum account into a public on-chain identity, which can have any amount of information attached) and ERC 1056 (in contrast keeps all of its identity information off-chain, the on-chain smart contract serves largely as a public key registry for that identity).
+The importance of smart contracts in SSI can be illustrated through their role in managing identity on a blockchain with specific implementations like ERC 725 (focusing on making an Ethereum account into a public on-chain identity, which can have any amount of information attached) and ERC 1056 (in contrast keeps all of its identity information off-chain, the on-chain smart contract serves largely as a public key registry for that identity).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -158,16 +160,16 @@ Zero-Knowledge Proofs are a type of cryptographic protocol that allows one party
 
 ZKPs needs to have the following three properties :
 - Completeness, if the statement is really true and both users follow the rules properly, then the verifier would be convinced without any artificial help.
-- Soundness, in case of the statement being false, the verifier would not be convincedin any scenario.
+- Soundness, in case of the statement being false, the verifier would not be convinced in any scenario.
 - Zero-Knowledge, the verifier in every case would not know any more information.
 
 Cryptographic Mechanisms :
-- Interactive Proof Systems: Early ZKPs were interactive, requiring multiple rounds of communication between the prover and verifier.
-- Non-Interactive Zero-Knowledge Proofs (NIZK): These allow the proof to be generated and verified without interaction, often using a common reference string available to both parties.
+- Interactive Proof Systems : early ZKPs were interactive, requiring multiple rounds of communication between the prover and verifier.
+- Non-Interactive Zero-Knowledge Proofs (NIZK) : allow the proof to be generated and verified without interaction, often using a common reference string available to both parties.
 
 Practical Implementations :
-- zk-SNARKs - Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge: Used in blockchain technologies like Zcash for private transactions. They are efficient and allow for succinct proofs.
-- zk-STARKs - Zero-Knowledge Scalable Transparent Arguments of Knowledge: Designed for scalability and transparency, eliminating the need for a trusted setup phase.
+- zk-SNARKs - Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge, used in blockchain technologies like Zcash for private transactions. They are efficient and allow for succinct proofs.
+- zk-STARKs - Zero-Knowledge Scalable Transparent Arguments of Knowledge, designed for scalability and transparency, eliminating the need for a trusted setup phase.
 
 ZKPs are fundamental to SSI as they enable selective disclosure, allowing users to share only necessary information, enhance security by providing strong cryptographic guarantees and facilitate trust in decentralized systems by providing verifiable, tamper-proof proofs.
 
@@ -175,6 +177,8 @@ ZKPs are fundamental to SSI as they enable selective disclosure, allowing users 
 
 <!-- IDENTITY MODELS -->
 ### Identity Models
+
+Identity management invole three models :
 
  ### Centralized Identity Model
 The centralized identity model is a traditional approach where a single, central authority manages and controls identity information. This model is prevalent in systems where government agencies, social media platforms, or service providers issue and maintain identification data. In this setup, individuals create accounts with the central entity, linking their identity to these accounts. The central authority owns and controls the identity data, making decisions about its use and access. This model is characterized by a single point of control, where the central entity oversees the creation, update, and deletion of identity records.
@@ -189,7 +193,7 @@ In a federated system, users benefit from improved convenience and reduced redun
 ### Decentralized Identity Model
 The decentralized identity model, inspired by blockchain technology, represents a paradigm shift from centralized control to user-centric identity management. In this model, individuals have full control over their identity data and manage it independently. This approach uses Decentralized Identifiers (DIDs) and Verifiable Credentials (VCs) to establish and verify identities without relying on a central authority.
 
-Decentralized identity systems allow for peer-to-peer relationships, where identities are managed directly between individuals and organizations. This model enhances privacy and security, as users can selectively disclose only the necessary information for a transaction or interaction. However, the decentralized model introduces technical complexity and requires new infrastructure and widespread adoption to become fully effective. Users must also manage their cryptographic keys securely to prevent identity loss.
+Decentralized identity systems allow for peer-to-peer relationships, where identities are managed directly between individuals and organizations. However, the decentralized model introduces technical complexity and requires new infrastructure and widespread adoption to become fully effective. Users must also manage their cryptographic keys securely to prevent identity loss.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -198,7 +202,7 @@ Decentralized identity systems allow for peer-to-peer relationships, where ident
 
 Know Your Customer - KYC and KYB Know Your Business - KYB are regulatory and due diligence processes used to verify the identity of clients and prevent illegal activities such as money laundering and fraud.
 
-KYC involves a series of checks that financial institutions must conduct to verify the identity of their clients. This includes gathering information such as name, address, date of birth, and proof of identity (e.g., passport, driver's license). The aim is to ensure that clients are who they claim to be and to assess the risk they may pose. KYC procedures typically involve a Customer Indentification Program - CIP, collecting and verifying customer identification information, Customer Due Diligence - CDD, assessing the customer's risk profile based on their background and transactional behavior and continuous monitoring.
+KYC involves a series of checks that financial institutions must conduct to verify the identity of their clients. This includes gathering information such as name, address, date of birth, and proof of identity (e.g., passport, driver's license). The aim is to ensure that clients are who they claim to be and to assess the risk they may pose. KYC procedures typically involve a Customer Indentification Program - CIP, collecting and verifying customer identification information and Customer Due Diligence - CDD, assessing the customer's risk profile based on their background and transactional behavior but also a continuous monitoring.
 
 In the context of SSI and digital identity, KYC can be enhanced by using VCs allowing secure and real-time verification while maintaining privacy.
 
@@ -218,6 +222,8 @@ Airdrops are a distribution mechanism in the cryptocurrency and blockchain ecosy
 
 Decentralized applications, commonly known as dApps, are software applications that run on a blockchain or decentralized network rather than being hosted on centralized servers. They utilize smart contracts to facilitate various functions, providing transparency, security, and trust without a central authority.
 
+When smart contracts are small code units with an autonomous execution, dApps are more complexe, complete applications combining both frontend and several smart contracts as backend. 
+
 In the context of SSI, dApps can be used to create, manage, and verify decentralized identities. For example, a dApp could allow users to store their verifiable credentials in a digital wallet, manage access to their personal data, and prove their identity to service providers without relying on a centralized identity authority.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -225,7 +231,7 @@ In the context of SSI, dApps can be used to create, manage, and verify decentral
 <!-- DECENTRALIZED IDENTIFIERS -->
 ### Decentralized Identifiers
 
-A Decentralized Identifier - DID is a new type of globally unique identifier that can be used to identify any entity, whether it be a person, organization, device, or other digital resource. Unlike traditional identifiers, DIDs are designed to be self-sovereign, fully under the control of the entity they identify.
+A Decentralized Identifier - DID is a new type of globally unique identifier that can be used to identify any entity, whether it be a person, organization, device, or other digital resource. Unlike traditional identifiers, DIDs are designed to be self-sovereign - fully under the control of the entity they identify.
 
 DIDs are designed to be a permanent identifier that does not need to change even if the underlying system or service provider changes, aren't managed by any central authority and are cryptographically verifiable : the DID is associated with a public/private key pair, and control over the DID can be proven by demonstrating control over the corresponding private key.
 
@@ -243,15 +249,6 @@ did:ethr:0x123456789abcdef123456789abcdef123456789abcdef
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- DIGITAL WALLET -->
-### Digital Wallet
-
-These credentials can be kept in digital wallets capable of storing and managing such credentials but also providing security/encryption and backup/recovery options.
-
-Digital wallets are often paired with digital agent, which act similarly to an operation system, mediating all interactions between the wallet, the user and other agents. Digital agents perform tasks such as generating cryptographic key pairs, initiating DID-to-DID connections, securing communication and managing credential issuance and verification.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- VCs -->
 ### Virtual Credentials
 
@@ -260,6 +257,15 @@ Virtual Credentials - VCs refer to digital versions of traditional physical cred
 - Identity verification : VCs can be used for verifying identity in various contexts such as online banking, airport security, and digital onboarding processes. For example, a person could use a Virtual Credential issued by their government to verify their identity when opening a bank account online.
 - Access control : VCs can control access to physical and digital spaces. For instance, employees could use Virtual Credentials to access office buildings or secure online resources, ensuring that only authorized personnel can enter or gain access.
 - Compliance and certifications : educational institutions and professional organizations can issue VCs to certify qualifications, professional memberships, or compliance with industry standards. This allows individuals to prove their credentials easily and securely to potential employers or clients.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- DIGITAL WALLET -->
+### Digital Wallet
+
+These credentials can be kept in digital wallets capable of storing and managing them but also providing security/encryption and backup/recovery options.
+
+Digital wallets are often paired with digital agent, which act similarly to an operation system, mediating all interactions between the wallet, the user and other agents. Digital agents perform tasks such as generating cryptographic key pairs, initiating DID-to-DID connections, securing communication and managing credential issuance and verification.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
